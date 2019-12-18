@@ -11,8 +11,8 @@ end
 
 
 def long_planeteer_calls(calls)
-calls.include? {|w| w.length > 4}
-call.n
+calls.all? {|w| w.length > 4}
+call.find? {|w| w.length > 4}
 end
 
 
