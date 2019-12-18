@@ -9,7 +9,7 @@ def summon_captain_planet(arr)
   return arr.map{ |w| "#{w.capitalize}!" }
 end
 
-
+summon_captain_planet(["hey", "you, "aishd"])
 
 # def long_planeteer_calls# code an argument here
 #   # Your code here
