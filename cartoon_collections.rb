@@ -22,4 +22,5 @@ def find_the_cheese(arr)
     "gouda"
   elsif arr.include?("camembert")
     "camembert"
+  end
 end
