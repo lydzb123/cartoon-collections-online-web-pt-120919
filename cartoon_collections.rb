@@ -5,9 +5,7 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 
-def summon_captain_planet(veggies)
-  output = []
-  veggies.each{|w| output << "#{w.upcase}!"}
+def summon_captain_planet(arr)
 end
 
 
