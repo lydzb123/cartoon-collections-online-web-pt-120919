@@ -11,9 +11,11 @@ end
 
 
 def long_planeteer_calls(calls)
-if calls.all? {|w| w.length < 4 || w.length == 4 }
-else
-  false
+if
+  calls.all? {|w| w.length < 4 || w.length == 4 }
+elsif
+  
+
 end
 
 end
