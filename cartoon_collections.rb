@@ -11,12 +11,12 @@ end
 
 
 def long_planeteer_calls(calls)
-  count = 0
-  if i.length > 4
+  i = 0
+  if calls[i].length > 4
     true
   else
     false
-    count += 1
+    i += 1
   end
 
 end
