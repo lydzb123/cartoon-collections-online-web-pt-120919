@@ -14,9 +14,6 @@ def long_planeteer_calls(calls)
   i = 0
   while calls[i].length > 4
     true
-  else
-    false
-    i += 1
   end
 
 end
