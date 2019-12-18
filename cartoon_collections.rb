@@ -11,14 +11,14 @@ end
 
 
 def long_planeteer_calls(calls)
-  i = 0
+  count = 0
   if i.length > 4
     true
   else
     false
-    i += 1
+    count += 1
   end
-  
+
 end
 
 # def find_the_cheese# code an argument here
