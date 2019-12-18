@@ -6,6 +6,7 @@ end
 
 
 def summon_captain_planet(arr)
+  return arr
 end
 
 
