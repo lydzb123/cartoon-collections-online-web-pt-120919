@@ -16,11 +16,9 @@ if
   true
 elsif
   calls.all? {|w| w.length == 4 || w.length < 4}
-  
-
-
+  false
 end
-
+  
 end
 
 
