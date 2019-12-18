@@ -11,13 +11,10 @@ end
 
 
 def long_planeteer_calls(calls)
-  i = 0
-  while calls[i].length > 4
-    true
-    i += 1
-  end
-
+calls.all? {|w| w.length > 4}
 end
+
+
 
 # def find_the_cheese# code an argument here
 #   # the array below is here to help
