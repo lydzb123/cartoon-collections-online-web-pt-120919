@@ -15,6 +15,7 @@ calls.any? {|w| w.length > 4}
 end
 
 
-def find_the_cheese(cheese_types)# code an argument here
+def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  arr.include?(cheese_types)
 end
