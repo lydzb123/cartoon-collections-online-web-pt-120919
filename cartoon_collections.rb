@@ -18,7 +18,7 @@ end
 def find_the_cheese(arr)
   i = 0
    while i < arr.length
-     return arri] if yield(arr[i])
+     return arr[i] if yield(arr[i])
      i = i + 1
    end
 end
