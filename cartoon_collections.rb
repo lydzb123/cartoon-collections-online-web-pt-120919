@@ -12,10 +12,8 @@ end
 
 def long_planeteer_calls(calls)
 
-if calls.include? {|w| w.length > 4}
-  true
-elsif calls.all? {|w| w.length == 4 || w.length < 4}
-  false
+calls.any? {|w| w.length > 4}
+calls.all? {|w| w.length == 4 || w.length < 4}
 end
 
 end
