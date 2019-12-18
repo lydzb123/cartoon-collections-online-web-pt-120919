@@ -6,7 +6,7 @@ end
 
 
 def summon_captain_planet(veggies)
-  veggies.map{|w| "#{w.upcase}!"}
+  veggies.map{|w| "#{w.upcase}!" }
 end
 
 
