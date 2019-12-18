@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(calls)
 if calls.all? {|w| w.length > 4} do
-  return false
+  false
 else
   true
 end
