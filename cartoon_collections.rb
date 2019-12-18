@@ -6,7 +6,7 @@ end
 
 
 def summon_captain_planet(arr)
-  return arr
+  return arr.map { |w| w.upcase"!""}
 end
 
 
