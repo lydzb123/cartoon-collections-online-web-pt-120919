@@ -16,7 +16,9 @@ end
 
 
 def find_the_cheese(arr)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  arr.find(cheese_types)
+  i = 0
+   while i < collection.length
+     return collection[i] if yield(collection[i])
+     i = i + 1
+   end
 end
