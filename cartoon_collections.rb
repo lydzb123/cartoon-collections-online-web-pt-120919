@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(calls)
 calls.all? {|w| w.length > 4}
-call.find? {|w| w.length > 4}
+call.include? {|w| w.length > 4}
 end
 
 
