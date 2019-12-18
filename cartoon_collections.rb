@@ -16,5 +16,5 @@ end
 
 
 def find_the_cheese(arr)
-  arr.detect{|i| arr[i.include?("cheddar", "gouda", "camembert")]}
+  arr[arr.include?("cheddar", "gouda", "camembert")]
 end
