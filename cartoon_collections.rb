@@ -16,4 +16,5 @@ end
 
 
 def find_the_cheese(arr)
+  arr.detect{|i| i.include?(arr)
 end
